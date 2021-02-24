@@ -3,3 +3,28 @@ header, main {
     background-color: #FFFFFF;
     margin: 0 auto;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "weather-here-main-info weather-here-characteristics"
+        "favorite-header add-new-city-form"
+        "favorite-left favorite-right";
+}
+.weather-here-main-info {
+    grid-area: weather-here-main-info;
+}
+.weather-here-characteristics {
+    grid-area: weather-here-characteristics;
+}
+.favorite-header {
+    grid-area: favorite-header;
+}
+.favorite-left {
+    grid-area: favorite-left;
+}
+.favorite-right {
+    grid-area: favorite-right;
+}
