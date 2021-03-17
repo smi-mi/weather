@@ -4,7 +4,6 @@
     <list default="true" id="e6fa8a70-8e5d-42b9-9f6f-2b8a87e1983b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +61,7 @@
       <workItem from="1615751539615" duration="411000" />
       <workItem from="1615969059388" duration="2757000" />
       <workItem from="1615982099046" duration="2257000" />
-      <workItem from="1616008353984" duration="14122000" />
+      <workItem from="1616008353984" duration="14483000" />
     </task>
     <task id="LOCAL-00001" summary="added content">
       <created>1614197728102</created>
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615979287616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="done!">
+      <created>1616022712479</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616022712479</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,21 +117,22 @@
     <MESSAGE value="made grid layout" />
     <MESSAGE value="h1 font done" />
     <MESSAGE value="adaptive sizes to be tested" />
-    <option name="LAST_COMMIT_MESSAGE" value="adaptive sizes to be tested" />
+    <MESSAGE value="done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="done!" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616022698938">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616022711311">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616022698938" />
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616022711311" />
     <state x="113" y="6" key="SettingsEditor" timestamp="1615978778271">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1615978778271" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1615979295429">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1616022728002">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1615979295429" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1616022728002" />
     <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1615982099931">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
