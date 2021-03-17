@@ -1,21 +1,20 @@
-body {
+html {
     margin: 0;
     padding: 0;
-    font-size: 5vh;
-    background-color: aliceblue;
+    font-size: 20px;
+}
+body {
+    width: 850px;
+    min-width: 320px;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0;
+    color: #717C80;
+    background-color: #F1F1F1;
 }
 
 header, main {
-    width: 70%;
-    min-width: 320px;
     background-color: #FFFFFF;
-    margin: 0 auto;
-    padding-left: 35px;
-    padding-right: 35px;
-}
-header {
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 main {
     padding-top: 0;
@@ -47,17 +46,181 @@ main {
 .favorite-right {
     grid-area: favorite-right;
 }
+header, .grid-section {
+    padding: 0 35px 20px;
+}
+header {
+    padding-top: 20px;
+}
 
 /* content styles */
-h1 {
+h1, h2 {
+    margin: 0;
+    padding: 0;
     display: inline;
-    font-size: 1em;
+    font-size: 1.6rem;
     font-weight: normal;
 }
-header button {
-    display: inline;
+
+.add-new-city-form {
+    position: relative;
+    height: 40px;
+}
+.add-new-city-form form {
     position: absolute;
-    left: 50%;
-    width: 200px;
-    margin-left: -100px;
+    right: 35px;
+    width: 70%;
+    display: flex;
+}
+.input-field {
+    font-size: 0.6rem;
+    padding: 10px;
+    background-color: #F1F1F1;
+    color: #979FA2;
+    border: none;
+    border-radius: 2px;
+    flex-grow: 100;
+}
+.button {
+    padding: 6px;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #718289;
+    color: white;
+    font-size: 0.8rem;
+    margin: 0 0 0 10px;
+}
+.delete-button {
+    transform: rotate(45deg);
+}
+
+/* HACK to center update button */
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    position: absolute;
+}
+.update-button {
+    padding: 10px 30px;
+    /*display: inline;*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*width: 160px;*/
+    /*margin-left: -80px;*/
+    /*font-size: 0.6rem;*/
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    background-color: #C9D2D7;
+    color: #828D93;
+}
+#update-mobile-version {
+    display: none;
+}
+
+h3 {
+    margin: 0 30px 0 0;
+    font-size: 1.2rem;
+    display: inline-block;
+}
+.weather-here-main-info h3 {
+    margin: 0 0 20px;
+    font-size: 1.9rem;
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 20px;
+    list-style-type: none;
+}
+
+.weather-characteristics li {
+    background-color: #A6B0B1;
+    color: white;
+    margin-bottom: 5px;
+    padding: 8px 10px;
+    font-size: 0.6rem;
+    font-weight: bold;
+    position: relative;
+}
+.weather-characteristic-value {
+    font-weight: normal;
+    position: absolute;
+    right: 10px;
+}
+
+.favorite-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    position: relative;
+}
+.favorite-header button {
+    position: absolute;
+    right: 0;
+}
+
+.weather-icon {
+    width: 40px;
+}
+#main-city-weather-icon {
+    width: 100px;
+    margin-right: 45px;
+}
+
+.temperature {
+    color: #7D7D7D;
+    font-size: 1.4rem;
+    margin-right: 15px;
+}
+.main-temperature {
+    font-size: 4rem;
+    vertical-align: top;
+    margin-right: 0;
+}
+
+/* adaptation to screen width */
+@media screen and (max-width: 870px) {
+    html {
+        font-size: 16px;
+    }
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+                "weather-here-main-info"
+                "weather-here-characteristics"
+                "favorite-header"
+                "add-new-city-form"
+                "favorite-left"
+                "favorite-right";
+    }
+    .add-new-city-form form {
+        width: calc(100% - 70px);
+    }
+    #update-desktop-version {
+        display: none;
+    }
+    #update-mobile-version {
+        display: block;
+        padding: 5px;
+    }
+    #update-mobile-version img {
+        width: 2rem;
+        height: 2rem;
+    }
 }
