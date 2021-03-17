@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 5vh;
+    background-color: aliceblue;
+}
+
+header, main {
+    width: 70%;
+    min-width: 320px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+main {
+    padding-top: 0;
+    padding-bottom: 45px;
+}
+
+/* grid layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        "weather-here-main-info weather-here-characteristics"
+        "favorite-header add-new-city-form"
+        "favorite-left favorite-right";
+}
+.weather-here-main-info {
+    grid-area: weather-here-main-info;
+}
+.weather-here-characteristics {
+    grid-area: weather-here-characteristics;
+}
+.favorite-header {
+    grid-area: favorite-header;
+}
+.favorite-left {
+    grid-area: favorite-left;
+}
+.favorite-right {
+    grid-area: favorite-right;
+}
+
+/* content styles */
+h1 {
+    display: inline;
+    font-size: 1em;
+    font-weight: normal;
+}
+header button {
+    display: inline;
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+}
