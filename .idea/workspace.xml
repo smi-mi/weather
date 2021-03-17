@@ -4,7 +4,6 @@
     <list default="true" id="e6fa8a70-8e5d-42b9-9f6f-2b8a87e1983b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,11 @@
       <option name="presentableId" value="Default" />
       <updated>1614178071340</updated>
       <workItem from="1614178076055" duration="38000" />
-      <workItem from="1614192701360" duration="9468000" />
+      <workItem from="1614192701360" duration="9623000" />
+      <workItem from="1614412864433" duration="9000" />
+      <workItem from="1615446640503" duration="27000" />
+      <workItem from="1615751539615" duration="411000" />
+      <workItem from="1615969059388" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="added content">
       <created>1614197728102</created>
@@ -79,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614200830974</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="h1 font done">
+      <created>1614204356038</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614204356038</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,21 +99,26 @@
     <MESSAGE value="added content" />
     <MESSAGE value="added all content and prepared for grid layout" />
     <MESSAGE value="made grid layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="made grid layout" />
+    <MESSAGE value="h1 font done" />
+    <option name="LAST_COMMIT_MESSAGE" value="h1 font done" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1614200829628">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1614204354841">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1614200829628" />
-    <state x="113" y="6" key="SettingsEditor" timestamp="1614197436173">
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1614204354841" />
+    <state x="113" y="6" key="SettingsEditor" timestamp="1615978778271">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1614197436173" />
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1614192734430">
+    <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1615978778271" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1614204368310">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1614192734430" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1614204368310" />
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1615969224545">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1615969224545" />
     <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1614197898347">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
