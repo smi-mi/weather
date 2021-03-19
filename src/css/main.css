@@ -5,7 +5,7 @@ html {
 }
 body {
     width: 850px;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 850px;
     margin: 0 auto;
     padding: 0;
@@ -29,7 +29,7 @@ main {
     grid-template-areas:
         "weather-here-main-info weather-here-characteristics"
         "favorite-header add-new-city-form"
-        "favorite-left favorite-right";
+        "favorite-list favorite-list";
 }
 .weather-here-main-info {
     grid-area: weather-here-main-info;
@@ -40,11 +40,14 @@ main {
 .favorite-header {
     grid-area: favorite-header;
 }
-.favorite-left {
-    grid-area: favorite-left;
+#favorite-list {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: favorite-list;
 }
-.favorite-right {
-    grid-area: favorite-right;
+#favorite-list li {
+    flex-grow: 1;
+    min-width: 200px;
 }
 header, .grid-section {
     padding: 0 35px 20px;
@@ -129,9 +132,10 @@ h3 {
     font-size: 1.2rem;
     display: inline-block;
 }
-.weather-here-main-info h3 {
+.weather-here-main-info h2 {
     margin: 0 0 20px;
     font-size: 1.9rem;
+    font-weight: bold;
     display: block;
 }
 
@@ -172,7 +176,7 @@ ul {
 }
 #main-city-weather-icon {
     width: 100px;
-    margin-right: 45px;
+    margin-right: 2rem;
 }
 
 .temperature {
@@ -187,7 +191,7 @@ ul {
 }
 
 /* adaptation to screen width */
-@media screen and (max-width: 870px), screen and (max-device-width: 650px) {
+@media screen and (max-width: 870px), screen and (max-device-width: 870px) {
     html {
         font-size: 16px;
     }
@@ -206,11 +210,20 @@ ul {
                 "weather-here-characteristics"
                 "favorite-header"
                 "add-new-city-form"
-                "favorite-left"
-                "favorite-right";
+                "favorite-list";
+    }
+    #favorite-list {
+        display: block;
+    }
+    header, .grid-section {
+        padding: 0 20px 10px;
+    }
+    header {
+        padding-top: 20px;
     }
     .add-new-city-form form {
-        width: calc(100% - 70px);
+        right: 20px;
+        width: calc(100% - 40px);
     }
     #update-desktop-version {
         display: none;
@@ -235,5 +248,16 @@ ul {
     /* HACK: don't work without it don't know why */
     .weather-characteristic-value {
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 400px), screen and (max-device-width: 400px) {
+    header {
+        display: block;
+    }
+    h1 {
+        position: static;
+        display: block;
+        margin-top: 10px;
     }
 }

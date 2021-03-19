@@ -4,6 +4,7 @@
     <list default="true" id="e6fa8a70-8e5d-42b9-9f6f-2b8a87e1983b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,10 @@
       <workItem from="1615751539615" duration="411000" />
       <workItem from="1615969059388" duration="2757000" />
       <workItem from="1615982099046" duration="2257000" />
-      <workItem from="1616008353984" duration="17147000" />
+      <workItem from="1616008353984" duration="17317000" />
+      <workItem from="1616079343289" duration="22000" />
+      <workItem from="1616139947832" duration="17000" />
+      <workItem from="1616184112518" duration="4963000" />
     </task>
     <task id="LOCAL-00001" summary="added content">
       <created>1614197728102</created>
@@ -119,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616024197329</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed font-size bugs">
+      <created>1616025747430</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616025747430</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fixed horizontal scroll bug and minor bugs">
+      <created>1616184935801</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616184935801</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,32 +152,34 @@
     <MESSAGE value="done!" />
     <MESSAGE value="fixed mobile version bug" />
     <MESSAGE value="fixed mobile version bug for sure" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed mobile version bug for sure" />
+    <MESSAGE value="fixed font-size bugs" />
+    <MESSAGE value="fixed horizontal scroll bug and minor bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed horizontal scroll bug and minor bugs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616024195983">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616184934594">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616024195983" />
-    <state x="113" y="6" key="SettingsEditor" timestamp="1615978778271">
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616184934594" />
+    <state x="113" y="6" key="SettingsEditor" timestamp="1616139963176">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1615978778271" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1616024210810">
+    <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1616139963176" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1616025753708">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1616024210810" />
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1615982099931">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1616025753708" />
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616184115145">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1615982099931" />
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1616184115145" />
     <state x="266" y="161" key="run.anything.popup" timestamp="1616025178440">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="266" y="161" key="run.anything.popup/0.0.1218.720@0.0.1218.720" timestamp="1616025178440" />
-    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1614197898347">
+    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1616186893137">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1614197898347" />
+    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1616186893137" />
   </component>
 </project>
