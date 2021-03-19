@@ -5,7 +5,7 @@ html {
 }
 body {
     width: 850px;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 850px;
     margin: 0 auto;
     padding: 0;
@@ -129,9 +129,10 @@ h3 {
     font-size: 1.2rem;
     display: inline-block;
 }
-.weather-here-main-info h3 {
+.weather-here-main-info h2 {
     margin: 0 0 20px;
     font-size: 1.9rem;
+    font-weight: bold;
     display: block;
 }
 
@@ -172,7 +173,7 @@ ul {
 }
 #main-city-weather-icon {
     width: 100px;
-    margin-right: 45px;
+    margin-right: 2rem;
 }
 
 .temperature {
@@ -208,6 +209,12 @@ ul {
                 "add-new-city-form"
                 "favorite-left"
                 "favorite-right";
+    }
+    header, .grid-section {
+        padding: 0 20px 10px;
+    }
+    header {
+        padding-top: 20px;
     }
     .add-new-city-form form {
         width: calc(100% - 70px);
