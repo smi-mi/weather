@@ -65,7 +65,7 @@
       <workItem from="1616008353984" duration="17317000" />
       <workItem from="1616079343289" duration="22000" />
       <workItem from="1616139947832" duration="17000" />
-      <workItem from="1616184112518" duration="784000" />
+      <workItem from="1616184112518" duration="4963000" />
     </task>
     <task id="LOCAL-00001" summary="added content">
       <created>1614197728102</created>
@@ -130,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616025747430</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed horizontal scroll bug and minor bugs">
+      <created>1616184935801</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616184935801</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,13 +153,14 @@
     <MESSAGE value="fixed mobile version bug" />
     <MESSAGE value="fixed mobile version bug for sure" />
     <MESSAGE value="fixed font-size bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed font-size bugs" />
+    <MESSAGE value="fixed horizontal scroll bug and minor bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed horizontal scroll bug and minor bugs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616025746248">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616184934594">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616025746248" />
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616184934594" />
     <state x="113" y="6" key="SettingsEditor" timestamp="1616139963176">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
@@ -169,9 +177,9 @@
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="266" y="161" key="run.anything.popup/0.0.1218.720@0.0.1218.720" timestamp="1616025178440" />
-    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1614197898347">
+    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1616186893137">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1614197898347" />
+    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1616186893137" />
   </component>
 </project>
