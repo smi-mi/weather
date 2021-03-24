@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6fa8a70-8e5d-42b9-9f6f-2b8a87e1983b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/js/localStorage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/weather-icons/broken-clouds.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +17,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -65,7 +67,9 @@
       <workItem from="1616008353984" duration="17317000" />
       <workItem from="1616079343289" duration="22000" />
       <workItem from="1616139947832" duration="17000" />
-      <workItem from="1616184112518" duration="4963000" />
+      <workItem from="1616184112518" duration="5590000" />
+      <workItem from="1616572679122" duration="3524000" />
+      <workItem from="1616622838905" duration="3799000" />
     </task>
     <task id="LOCAL-00001" summary="added content">
       <created>1614197728102</created>
@@ -137,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616184935801</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed two favorite lists bug and update button overlap">
+      <created>1616189174406</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616189174406</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,29 +165,30 @@
     <MESSAGE value="fixed mobile version bug for sure" />
     <MESSAGE value="fixed font-size bugs" />
     <MESSAGE value="fixed horizontal scroll bug and minor bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed horizontal scroll bug and minor bugs" />
+    <MESSAGE value="fixed two favorite lists bug and update button overlap" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed two favorite lists bug and update button overlap" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616184934594">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616189173528">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616184934594" />
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616189173528" />
     <state x="113" y="6" key="SettingsEditor" timestamp="1616139963176">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1616139963176" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1616025753708">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1616189199107">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1616025753708" />
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616184115145">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1616189199107" />
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616622839809">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1616184115145" />
-    <state x="266" y="161" key="run.anything.popup" timestamp="1616025178440">
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1616622839809" />
+    <state x="266" y="161" key="run.anything.popup" timestamp="1616625946737">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="266" y="161" key="run.anything.popup/0.0.1218.720@0.0.1218.720" timestamp="1616025178440" />
+    <state x="266" y="161" key="run.anything.popup/0.0.1218.720@0.0.1218.720" timestamp="1616625946737" />
     <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1616186893137">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
