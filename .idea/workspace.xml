@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6fa8a70-8e5d-42b9-9f6f-2b8a87e1983b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/localStorage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/weather-icons/broken-clouds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/localStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/localStorage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,10 @@
       <workItem from="1616139947832" duration="17000" />
       <workItem from="1616184112518" duration="5590000" />
       <workItem from="1616572679122" duration="3524000" />
-      <workItem from="1616622838905" duration="3799000" />
+      <workItem from="1616622838905" duration="3876000" />
+      <workItem from="1616647884865" duration="3409000" />
+      <workItem from="1616753443364" duration="2446000" />
+      <workItem from="1616776849330" duration="4425000" />
     </task>
     <task id="LOCAL-00001" summary="added content">
       <created>1614197728102</created>
@@ -148,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616189174406</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added all icons and geoposition asking">
+      <created>1616626943191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616626943192</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,25 +176,26 @@
     <MESSAGE value="fixed font-size bugs" />
     <MESSAGE value="fixed horizontal scroll bug and minor bugs" />
     <MESSAGE value="fixed two favorite lists bug and update button overlap" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed two favorite lists bug and update button overlap" />
+    <MESSAGE value="added all icons and geoposition asking" />
+    <option name="LAST_COMMIT_MESSAGE" value="added all icons and geoposition asking" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616189173528">
+    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616626941847">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616189173528" />
-    <state x="113" y="6" key="SettingsEditor" timestamp="1616139963176">
+    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616626941847" />
+    <state x="113" y="6" key="SettingsEditor" timestamp="1616782507342">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1616139963176" />
+    <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1616782507342" />
     <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1616189199107">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1616189199107" />
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616622839809">
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616776852813">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1616622839809" />
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1616776852813" />
     <state x="266" y="161" key="run.anything.popup" timestamp="1616625946737">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
