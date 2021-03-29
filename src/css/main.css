@@ -283,12 +283,7 @@ ul {
 }
 
 @media screen and (max-width: 400px), screen and (max-device-width: 400px) {
-    header {
-        display: block;
-    }
-    h1 {
-        position: static;
-        display: block;
-        margin-top: 10px;
+    #update-mobile-version {
+        margin-left: 150px;
     }
 }
