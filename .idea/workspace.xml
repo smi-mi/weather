@@ -16,6 +16,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -65,7 +66,16 @@
       <workItem from="1616008353984" duration="17317000" />
       <workItem from="1616079343289" duration="22000" />
       <workItem from="1616139947832" duration="17000" />
-      <workItem from="1616184112518" duration="4963000" />
+      <workItem from="1616184112518" duration="5590000" />
+      <workItem from="1616572679122" duration="3524000" />
+      <workItem from="1616622838905" duration="3876000" />
+      <workItem from="1616647884865" duration="3409000" />
+      <workItem from="1616753443364" duration="2446000" />
+      <workItem from="1616776849330" duration="4591000" />
+      <workItem from="1616952893639" duration="4452000" />
+      <workItem from="1617015372885" duration="3454000" />
+      <workItem from="1617022765196" duration="6067000" />
+      <workItem from="1617037429670" duration="15094000" />
     </task>
     <task id="LOCAL-00001" summary="added content">
       <created>1614197728102</created>
@@ -137,7 +147,35 @@
       <option name="project" value="LOCAL" />
       <updated>1616184935801</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixed two favorite lists bug and update button overlap">
+      <created>1616189174406</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616189174406</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added all icons and geoposition asking">
+      <created>1616626943191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616626943192</updated>
+    </task>
+    <task id="LOCAL-00013" summary="refactored js and added update-info">
+      <created>1616782846519</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616782846519</updated>
+    </task>
+    <task id="LOCAL-00014" summary="done behavior with localStorage">
+      <created>1617056922988</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1617056922988</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,32 +192,40 @@
     <MESSAGE value="fixed mobile version bug for sure" />
     <MESSAGE value="fixed font-size bugs" />
     <MESSAGE value="fixed horizontal scroll bug and minor bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed horizontal scroll bug and minor bugs" />
+    <MESSAGE value="fixed two favorite lists bug and update button overlap" />
+    <MESSAGE value="added all icons and geoposition asking" />
+    <MESSAGE value="refactored js and added update-info" />
+    <MESSAGE value="done behavior with localStorage" />
+    <option name="LAST_COMMIT_MESSAGE" value="done behavior with localStorage" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="234" y="0" key="CommitChangelistDialog2" timestamp="1616184934594">
+    <state x="219" y="31" width="751" height="639" key="CommitChangelistDialog2" timestamp="1617056922152">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="234" y="0" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1616184934594" />
-    <state x="113" y="6" key="SettingsEditor" timestamp="1616139963176">
+    <state x="219" y="31" width="751" height="639" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1617056922152" />
+    <state x="230" y="54" key="DiffContextDialog" timestamp="1616782776024">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1616139963176" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1616025753708">
+    <state x="230" y="54" key="DiffContextDialog/0.0.1218.720@0.0.1218.720" timestamp="1616782776024" />
+    <state x="113" y="6" key="SettingsEditor" timestamp="1617037513174">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1616025753708" />
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1616184115145">
+    <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1617037513174" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1616189199107">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1616184115145" />
-    <state x="266" y="161" key="run.anything.popup" timestamp="1616025178440">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1616189199107" />
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1617037502094">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="266" y="161" key="run.anything.popup/0.0.1218.720@0.0.1218.720" timestamp="1616025178440" />
-    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1616186893137">
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1617037502094" />
+    <state x="266" y="161" key="run.anything.popup" timestamp="1616625946737">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1616186893137" />
+    <state x="266" y="161" key="run.anything.popup/0.0.1218.720@0.0.1218.720" timestamp="1616625946737" />
+    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup" timestamp="1617038678942">
+      <screen x="0" y="0" width="1218" height="720" />
+    </state>
+    <state x="272" y="41" width="672" height="678" key="search.everywhere.popup/0.0.1218.720@0.0.1218.720" timestamp="1617038678942" />
   </component>
 </project>
