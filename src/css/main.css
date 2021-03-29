@@ -190,14 +190,6 @@ ul {
     margin-right: 0;
 }
 
-
-.weather-here-main-info {
-    visibility: hidden;
-}
-.weather-here-characteristics {
-    visibility: hidden;
-}
-
 /* update info style */
 .grid-container {
     position: relative;
@@ -214,12 +206,14 @@ ul {
     width: calc(100% - 70px);
     visibility: visible;
 }
-
-/* HACK to have an example of favorite item */
-#favorite-list li:first-child {
-    display: none;
+.weather-here-main-info, .weather-here-characteristics {
+    visibility: hidden;
 }
 
+/* HACK to have an example of favorite item */
+#example {
+    display: none;
+}
 
 /* adaptation to screen width */
 @media screen and (max-width: 870px), screen and (max-device-width: 870px) {
