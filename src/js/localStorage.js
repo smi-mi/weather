@@ -44,16 +44,17 @@ if (localStorage.getItem(HERE_CITY) === null && localStorage.getItem(HERE_CITY_C
             lat: position.coords.latitude,
             lon: position.coords.longitude,
         }));
-    },
+        location.reload();
+        },
     () => {
         let city;
         do {
             city = prompt('Введите город по умолчанию');
         } while (!checkCity(city));
         localStorage.setItem(HERE_CITY, city);
+        location.reload();
     });
     localStorage.setItem(FAVORITE_LIST, JSON.stringify([]));
-    location.reload();
 }
 
 // DOM IDs and classes
