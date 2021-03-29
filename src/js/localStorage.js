@@ -53,6 +53,7 @@ if (localStorage.getItem(HERE_CITY) === null && localStorage.getItem(HERE_CITY_C
         localStorage.setItem(HERE_CITY, city);
     });
     localStorage.setItem(FAVORITE_LIST, JSON.stringify([]));
+    location.reload();
 }
 
 // DOM IDs and classes
