@@ -36,24 +36,29 @@ const HERE_CITY = 'here-city';
 const HERE_CITY_COORDS = 'here-city-coords';
 const FAVORITE_LIST = 'favorites';
 
-// asking for geo position or default city
-if (localStorage.getItem(HERE_CITY) === null && localStorage.getItem(HERE_CITY_COORDS) === null) {
+// updating geolocation
+function updateGeolocation() {
     navigator.geolocation.getCurrentPosition(
-    (position) => {
-        localStorage.setItem(HERE_CITY_COORDS, JSON.stringify({
-            lat: position.coords.latitude,
-            lon: position.coords.longitude,
-        }));
-        location.reload();
+        (position) => {
+            localStorage.setItem(HERE_CITY_COORDS, JSON.stringify({
+                lat: position.coords.latitude,
+                lon: position.coords.longitude,
+            }));
+            location.reload();
         },
-    () => {
-        let city;
-        do {
-            city = prompt('Введите город по умолчанию');
-        } while (!checkCity(city));
-        localStorage.setItem(HERE_CITY, city);
-        location.reload();
-    });
+        () => {
+            let city;
+            do {
+                city = prompt('Введите город по умолчанию');
+            } while (!checkCity(city));
+            localStorage.setItem(HERE_CITY, city);
+            location.reload();
+        });
+}
+
+// asking for geolocation or default city
+if (localStorage.getItem(HERE_CITY) === null && localStorage.getItem(HERE_CITY_COORDS) === null) {
+    updateGeolocation();
     localStorage.setItem(FAVORITE_LIST, JSON.stringify([]));
 }
 
@@ -100,12 +105,9 @@ document.getElementById(ADD_FAVORITE_FORM_ID).onsubmit = function () {
         .then(json => fillFavorite(json, favorites.length - 1));
 };
 
-// update button
-function update() {
-    location.reload();
-}
+// update buttons
 for (let b of document.getElementsByClassName(UPDATE_BUTTON_CLASS)) {
-    b.onclick = update;
+    b.onclick = updateGeolocation;
 }
 
 // hiding here-city info

@@ -74,7 +74,8 @@
       <workItem from="1616952893639" duration="4452000" />
       <workItem from="1617015372885" duration="3454000" />
       <workItem from="1617022765196" duration="6067000" />
-      <workItem from="1617037429670" duration="15734000" />
+      <workItem from="1617037429670" duration="16450000" />
+      <workItem from="1617095486010" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="added content">
       <created>1614197728102</created>
@@ -188,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617057692481</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fixed bug with main city not reloading">
+      <created>1617058286527</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1617058286527</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,26 +222,26 @@
     <option name="LAST_COMMIT_MESSAGE" value="fixed bug with main city not reloading" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="219" y="31" width="751" height="639" key="CommitChangelistDialog2" timestamp="1617057691988">
+    <state x="219" y="31" width="751" height="639" key="CommitChangelistDialog2" timestamp="1617058286058">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="219" y="31" width="751" height="639" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1617057691988" />
+    <state x="219" y="31" width="751" height="639" key="CommitChangelistDialog2/0.0.1218.720@0.0.1218.720" timestamp="1617058286058" />
     <state x="230" y="54" key="DiffContextDialog" timestamp="1616782776024">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
     <state x="230" y="54" key="DiffContextDialog/0.0.1218.720@0.0.1218.720" timestamp="1616782776024" />
-    <state x="113" y="6" key="SettingsEditor" timestamp="1617037513174">
+    <state x="113" y="6" key="SettingsEditor" timestamp="1617095498365">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1617037513174" />
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1617057700727">
+    <state x="113" y="6" key="SettingsEditor/0.0.1218.720@0.0.1218.720" timestamp="1617095498365" />
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2" timestamp="1617058294050">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1617057700727" />
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1617037502094">
+    <state x="202" y="94" key="Vcs.Push.Dialog.v2/0.0.1218.720@0.0.1218.720" timestamp="1617058294050" />
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1617095487146">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
-    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1617037502094" />
+    <state x="318" y="189" key="com.intellij.ide.util.TipDialog/0.0.1218.720@0.0.1218.720" timestamp="1617095487146" />
     <state x="266" y="161" key="run.anything.popup" timestamp="1616625946737">
       <screen x="0" y="0" width="1218" height="720" />
     </state>
