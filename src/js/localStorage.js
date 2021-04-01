@@ -74,6 +74,22 @@ const ADD_FAVORITE_FORM_ID = 'add-new-city';
 const NEW_CITY_ID = 'new-city';
 const UPDATE_BUTTON_CLASS = 'update-button';
 
+// add favorite into DOM
+const FAVORITE_LIST_NODE = document.getElementById(FAVORITE_LIST_ID);
+function addFavorite() {
+    let favorite = document.getElementById(FAVORITE_EXAMPLE_ID).cloneNode(true);
+    favorite.setAttribute('id', '');
+    favorite.style.visibility = 'hidden';
+    favorite.firstElementChild.lastElementChild.addEventListener('click', removeFavorite);
+    let update_info = updateInfo.cloneNode(true);
+    update_info.setAttribute('id', '');
+    update_info.style.visibility = 'visible';
+    update_info.classList.add(UPDATE_INFO_FAVORITE_CLASS);
+    favorite.prepend(update_info);
+    FAVORITE_LIST_NODE.append(favorite);
+    return favorite;
+}
+
 // remove favorite button
 function removeFavorite() {
     let favorite = this.parentElement.parentElement;
@@ -87,27 +103,34 @@ function removeFavorite() {
     this.parentElement.parentElement.remove();
 }
 let favoriteExample = document.getElementById(FAVORITE_EXAMPLE_ID);
-favoriteExample.firstElementChild.lastElementChild.onclick = removeFavorite;
+favoriteExample.firstElementChild.lastElementChild.addEventListener('click', removeFavorite);
 
 // add favorite button with checking city validness
-document.getElementById(ADD_FAVORITE_FORM_ID).onsubmit = function () {
-    let city = document.getElementById(NEW_CITY_ID).value;
+document.getElementById(ADD_FAVORITE_FORM_ID).addEventListener('submit', (event) => {
+    event.preventDefault();
+    let newCityField = document.getElementById(NEW_CITY_ID);
+    let city = newCityField.value;
+    newCityField.value = '';
     if (!checkCity(city)) {
         alert('Несуществующий город: ' + city);
         return;
     }
-    let favorites = JSON.parse(localStorage.getItem(FAVORITE_LIST));
-    favorites.push(city);
-    localStorage.setItem(FAVORITE_LIST, JSON.stringify(favorites));
+    let favorite = addFavorite();
     const url = getUrlByCity(city);
     fetch(url)
         .then(response => response.json())
-        .then(json => fillFavorite(json, favorites.length - 1));
-};
+        .then(json => {
+            let favorites = JSON.parse(localStorage.getItem(FAVORITE_LIST));
+            favorites.push(city);
+            localStorage.setItem(FAVORITE_LIST, JSON.stringify(favorites));
+            fillFavorite(json, favorites.length - 1);
+        })
+        .catch(() => favorite.remove());
+});
 
 // update buttons
 for (let b of document.getElementsByClassName(UPDATE_BUTTON_CLASS)) {
-    b.onclick = updateGeolocation;
+    b.addEventListener('click', updateGeolocation);
 }
 
 // hiding here-city info
@@ -119,17 +142,8 @@ mainInfo.style.visibility = 'hidden';
 characteristics.style.visibility = 'hidden';
 
 // creating node for every favorite city with update info
-const FAVORITE_LIST_NODE = document.getElementById(FAVORITE_LIST_ID);
 for (const f of FAVORITES) {
-    let favorite = document.getElementById(FAVORITE_EXAMPLE_ID).cloneNode(true);
-    favorite.setAttribute('id', '');
-    favorite.style.visibility = 'hidden';
-    favorite.firstElementChild.lastElementChild.onclick = removeFavorite;
-    let update_info = updateInfo.cloneNode(true);
-    update_info.setAttribute('id', '');
-    update_info.classList.add(UPDATE_INFO_FAVORITE_CLASS);
-    favorite.prepend(update_info);
-    FAVORITE_LIST_NODE.append(favorite);
+    addFavorite();
 }
 
 // weather constants
