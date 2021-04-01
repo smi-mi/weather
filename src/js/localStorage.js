@@ -77,8 +77,8 @@ const UPDATE_BUTTON_CLASS = 'update-button';
 // add favorite into DOM
 const FAVORITE_LIST_NODE = document.getElementById(FAVORITE_LIST_ID);
 function addFavorite() {
-    let favorite = document.getElementById(FAVORITE_EXAMPLE_ID).cloneNode(true);
-    favorite.setAttribute('id', '');
+    let example = document.getElementById(FAVORITE_EXAMPLE_ID);
+    let favorite = example.content.firstElementChild.cloneNode(true);
     favorite.style.visibility = 'hidden';
     favorite.firstElementChild.lastElementChild.addEventListener('click', removeFavorite);
     let update_info = updateInfo.cloneNode(true);
@@ -92,6 +92,7 @@ function addFavorite() {
 
 // remove favorite button
 function removeFavorite() {
+    this.disabled = true;
     let favorite = this.parentElement.parentElement;
     let index = 0;
     while ((favorite = favorite.previousElementSibling) != null) {
@@ -102,8 +103,6 @@ function removeFavorite() {
     localStorage.setItem(FAVORITE_LIST, JSON.stringify(favorites));
     this.parentElement.parentElement.remove();
 }
-let favoriteExample = document.getElementById(FAVORITE_EXAMPLE_ID);
-favoriteExample.firstElementChild.lastElementChild.addEventListener('click', removeFavorite);
 
 // add favorite button with checking city validness
 document.getElementById(ADD_FAVORITE_FORM_ID).addEventListener('submit', (event) => {
@@ -197,7 +196,7 @@ function fillHereCity(json) {
     characteristics.style.visibility = 'visible';
 }
 function fillFavorite(json, i) {
-    let favorite = FAVORITE_LIST_NODE.children[i + 1]; // +1 because of mock first elem
+    let favorite = FAVORITE_LIST_NODE.children[i];
     favorite.firstElementChild.remove();
     let header = favorite.firstElementChild.children;
     header[0].textContent = json.name;
